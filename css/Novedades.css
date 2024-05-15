@@ -24,7 +24,18 @@ footer{
     background-color: rgb(33, 33, 33);
     color: white;
     padding: 7px;
-    }
+}
+
+p{
+    padding-left: 15px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.bloqueLanzamiento{
+    color: white;
+    font-size: 30px;
+}
 
 main{
     margin: 30px;

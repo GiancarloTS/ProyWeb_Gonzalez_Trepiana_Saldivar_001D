@@ -91,7 +91,7 @@ inputs.forEach((input) => { //CADA INPUT TENDRA UN EVENTO
 
 formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();//NO PASARA NADA CUANDO SE PRESIONE EL BOTON7//
-   
+    
     if(campos.Nombre && campos.Correo && campos.Usuario && campos.Clave){
         formulario.reset();
 

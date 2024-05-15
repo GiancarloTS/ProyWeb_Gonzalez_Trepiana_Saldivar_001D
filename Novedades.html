@@ -52,12 +52,22 @@
     </nav>
   </header>
 
-  <h1 class="titulo">POSTERS DEL MES</h1>
+  <h1 class="titulo">PRÓXIMA COLABORACIÓN</h1>
+
+  <p id="Lanzamiento">Lanzamiento de la colaboración</p>
+  <div class="bloqueLanzamiento container-fluid d-flex">
+    <p>
+      <span class="dias" id="dias"></span> días / <span class="hora" id="hora"></span> horas / <span class="minuto" id="minuto"></span> minutos / <span class="segundo" id="segundo"></span> segundos
+    </p>
+  </div>
 
   <div class="bloque">
     <main id="app"></main>
   </div> 
-  
+
+
+
+
   <footer>
     <span id="pie">Andres Gabriel Giancarlo @Copyrigth Derechos reservados.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram"
@@ -83,6 +93,10 @@
     </svg>
   </footer>
   
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.js" 
+    integrity="sha512-34c+czbe1JJMtTH6ebtsJdIa1K3lNsxDC92M3PBI0bACg7nu+DhHwfRS2Zc2qtbyPWKHLTgoxsMrArG4Myx4AQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -92,5 +106,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    
   <script src="js/Apis.js"></script>
+  <script src="js/Utilidad.js"></script>
 </body>
