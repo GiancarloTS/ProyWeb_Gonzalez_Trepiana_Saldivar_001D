@@ -5,17 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quienes Somos</title>
-  <link rel="stylesheet" href="Css/Novedades.css">
+  <link rel="stylesheet" href="Css/Quienes.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link
     href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
-<body class="cuerpo">
+<body id="cuerpo">
   <header>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
@@ -38,9 +36,9 @@
               <a class="nav-link" href="GaleriaDeFotos.html">Galeria de fotos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+              <a class="nav-link active" href="QuienesSomos.html">Quienes Somos</a>
             </li>
-           
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="Contactanos.html"
               >Contactanos</a
@@ -66,19 +64,108 @@
     </nav>
   </header>
 
-  <h1 class="titulo">PRÓXIMA COLABORACIÓN</h1>
-
-  <p id="Lanzamiento">Lanzamiento de la colaboración</p>
-  <div class="bloqueLanzamiento container-fluid d-flex">
-    <p>
-      <span class="dias" id="dias"></span> días / <span class="hora" id="hora"></span> horas / <span class="minuto" id="minuto"></span> minutos / <span class="segundo" id="segundo"></span> segundos
-    </p>
+  <div class="col-12 col-md-12 col-lg-12 mb-3">
+    <h1 id="Titulo" class="text-center mt-3 mb-4">Sobre Nosotros</h1>
   </div>
 
-  <div class="bloque">
-    <main id="app"></main>
-  </div> 
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-8 mb-3">
+        <div class="card mb-3 ms-3 me-3" style="max-width: 941px;">
+          <div class="row g-0">
+            <div id="Borde_imagen_mision" class="col-4 col-md-6 col-lg-4" style="padding-top: 90px;">
+              <img src="https://imgbb.host/images/shTAi.png" class="img-fluid rounded mx-auto d-block">
+            </div>
+            <div id="Borde_texto_mision" class="col-8 col-md-6 col-lg-8">
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 3rem;">Misión</h5>
+                <p class="card-text fs-5">
+                  En Posting, nos dedicamos a ofrecer una experiencia única a nuestros clientes
+                  con una variedad de posters inspirados en series de televisión, anime y músicos favoritos.
+                  Nuestra misión es ser el destino preferido para los aficionados apasionados que desean
+                  expresar su amor a través del arte visual.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="row w-100">
+    <div class="col-12 col-md-12 col-lg-6 ">
+      <div class="card mb-3 ms-3 me-3" style="max-width: 640px;">
+        <div class="row g-0">
+          <div id="Borde_imagen_vision" class="col-4 col-md-6 col-lg-4">
+            <img src="https://imgbb.host/images/shSYM.png" class="img-fluid rounded mx-auto d-block"
+              style="padding-top: 40px;">
+          </div>
+          <div id="Borde_texto_vision" class="col-8 col-md-6 col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 4rem;">Visión</h5>
+              <p class="card-text fs-5">
+                Desde nuestro humilde stand de posters, nos esforzamos por ser un lugar de encuentro animado y comodo
+                para los fans de las series de televisión, el anime y la música.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-12 col-lg-6">
+      <div class="card mb-3 ms-3 me-3" style="max-width: 640px;">
+        <div class="row g-0">
+          <div id="Borde_imagen_acerca" class="col-4 col-md-6 col-lg-4">
+            <img src="https://imgbb.host/images/sh57S.jpeg" class="img-fluid rounded mx-auto d-block"
+              style="padding-top: 45px;">
+          </div>
+          <div id="Borde_texto_acerca" class="col-8 col-md-6 col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 4rem;">Acerca de</h5>
+              <p class="card-text fs-5">
+                En nuestra tienda, nos apasiona ofrecer una amplia selección
+                de posters que capturan la esencia de las series más populares,
+                el emocionante mundo del anime y la diversidad de géneros musicales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-8 mb-3">
+        <div class="card mb-3 ms-3 me-3" style="max-width: 640px;">
+          <div class="row g-0">
+            <div id="Borde_imagen_ubicacion" class="col-4 col-md-6 col-lg-4">
+              <img src="https://imgbb.host/images/Q13cZ.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div id="Borde_texto_ubicacion" class="col-8 col-md-6 col-lg-8">
+              <div class="card-body">
+                <h5 class="card-title">Ubicación</h5>
+                <p class="card-text">
+                  Ahora nos podrás encontrar en nuestro puesto en metro Los Leones
+                  con nuestra variedad de productos, ¡¡¡¡LOS ESPERAMOS!!!!.
+                </p>
+                <a id="Boton_ubicacion" href="https://maps.app.goo.gl/P24QWE1vCcTJe5Lj9" target="_blank"
+                  class="btn">¡¡¡Visitanos!!!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-9 col-md-9 col-lg-6 ms-3 me-3 mb-5">
+        <div id="Borde_video" class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/_r0t1-XD3go?si=B6Ycy7Xrq-G0H8Dx"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -106,11 +193,8 @@
       <path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z" />
     </svg>
   </footer>
-  
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.js" 
-    integrity="sha512-34c+czbe1JJMtTH6ebtsJdIa1K3lNsxDC92M3PBI0bACg7nu+DhHwfRS2Zc2qtbyPWKHLTgoxsMrArG4Myx4AQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -120,7 +204,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    
-  <script src="js/Apis.js"></script>
-  <script src="js/Utilidad.js"></script>
 </body>
+
+</html>

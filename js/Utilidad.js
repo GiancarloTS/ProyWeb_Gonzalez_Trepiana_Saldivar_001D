@@ -1,12 +1,13 @@
 var tiempo = {}; 
-var clock = new Date("2024-06-01 5:00:00 PM"); // Obtener la fecha y almacenar en clock
+var clock = new Date("2024-07-01 5:00:00 PM"); // Obtener la fecha y almacenar en clock
 
 function mostrar_hora(){
   var now = new Date();  
   var diff = clock - now;
   // Inserta la hora almacenada en clock en el span con id hora
   tiempo.horas = document.getElementById('hora');
-  tiempo.horas.innerHTML = clock.getHours() - now.getHours(); 
+  tiempo.horas.innerHTML = now.getHours() - clock.getHours(); 
+  
   
   // Inserta los minutos almacenados en clock en el span con id minuto
   tiempo.minuto = document.getElementById('minuto');
