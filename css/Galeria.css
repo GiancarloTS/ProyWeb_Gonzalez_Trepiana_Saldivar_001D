@@ -1,0 +1,49 @@
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+svg{
+    margin-left: 10px;
+}
+il{
+   margin: 30px;
+}
+
+footer{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 7px;
+    display: block;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+#carouselExample{
+
+   display: contents;
+}
+
+#pie{
+    font-style: italic;
+    margin:8px;
+}
+.nav-link{
+font-size: 16px;
+margin-left: 10px;
+
+}
+
+.contenedor{
+
+    display: flex;
+    
+}
+
+body{
+
+    font-family: "Anybody", sans-serif;
+    
+}
